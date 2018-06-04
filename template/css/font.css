@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'CentroSlabProBold'; /* Имя шрифта */
+    src: url('../fonts/PFCentroSlabProBold/PFCentroSlabProBold.ttf'); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: 'CentroSlabProMedium'; /* Имя шрифта */
+    src: url('../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.ttf'); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: 'RalewayBold'; /* Имя шрифта */
+    src: url('../fonts/RalewayBold/RalewayBold.ttf'); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: 'RalewayRegular'; /* Имя шрифта */
+    src: url('../fonts/RalewayRegular/RalewayRegular.ttf'); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: 'RalewaySemiBold'; /* Имя шрифта */
+    src: url('../fonts/RalewaySemiBold/RalewaySemiBold.ttf'); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: 'RobotoBold'; /* Имя шрифта */
+    src: url('../fonts/RobotoBold/RobotoBold.ttf'); /* Путь к файлу со шрифтом */
+}

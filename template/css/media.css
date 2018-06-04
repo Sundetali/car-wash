@@ -1,0 +1,105 @@
+@media screen and (max-width: 1093px) {
+    .right-nav {
+        display: none;
+    }
+    .fa-bars-out {
+        display: block;
+    }
+    .fa-bars-out .fa-bars {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (min-width: 1094px) {
+    .mobNav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .right {
+        flex-grow: 1;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header.main-head h1,
+    footer.homesect2 h1 {
+        font-size: 2rem;
+    }
+    header.main-head p,
+    footer.homesect2 p {
+        font-size: 1rem;
+    }
+    header.main-head span,
+    footer.homesect2 span {
+        font-size: 1rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    span {
+        font-size: 1rem;
+    }
+    header.main-head .fa-bars-out {
+        font-size: 1.5rem;
+    }
+    .container {
+        padding: 0 5%;
+    }
+    header.main-head h1,
+    header.main-head ul li {
+        margin-left: 10px;
+    }
+    #wrapper .btn{
+        padding: 8px 25px!important;
+        letter-spacing: 0;
+        font-size: .7rem!important;
+    }
+    #wrapper {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .wrapper_car {
+        flex-basis: 390px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .left h1 {
+        font-size: 2rem;
+    }
+    #YMapsID{
+        width: 400px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    header.main-head h1,
+    footer.homesect2 h1 {
+        font-size: 1.3rem;
+    }
+    header.main-head p,
+    footer.homesect2 p {
+        font-size: .8rem;
+    }
+    header.main-head span,
+    footer.homesect2 span {
+        font-size: 1rem;
+    }
+    .container{
+        width: 95%;
+    }
+    #YMapsID{
+        width: 300px;
+    }
+}

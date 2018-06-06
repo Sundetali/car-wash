@@ -28,11 +28,9 @@ class CommentController {
         if(isset($_POST['saveComment'])) {
             $str = $_POST['saveComment'];
             $newComment = $_POST['comment'];
-            echo $_POST['comment'];
-            echo $newComment;
+            
             preg_replace('/[^\d]*/m','',$str);
             preg_match_all('/[\d]+/',$str,$pocket);
-            print_r($pocket);
             
             $n = $pocket[0][0];
             $db = Db::getConnection();
